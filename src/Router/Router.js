@@ -3,8 +3,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from "react-router-dom";
+import Booking from '../Pages/Booking';
 import Home from '../Pages/Home';
 
 export default function Routes() {
@@ -14,8 +14,8 @@ export default function Routes() {
                 <Route path="/admin">
                     <h1>admin panel</h1>
                 </Route>
-                <Route path="/services">
-                    <h1>Services Booking</h1>
+                <Route path="/booking">
+                    <Booking/>
                 </Route>
                 <Route path="/">
                     <Home/>
