@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.quida {
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.quida-header {
+  border: 1px solid #006661;
+  grid-column: 1/4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quida-header-logo {
+  max-height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quida-main {
+  grid-column: 2/3;
 }
 
-.App-link {
-  color: #61dafb;
+.quida-service-list {
+  display: inline-flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.white {
+  color: #fff;
+  text-shadow: 2px 1px #006661;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.boxed {
+  width: 300px;
+  height: 125px;
+}
+
+.quida-bookflow-nav {
+  position: absolute;
+  bottom: 20px;
+  right: 43%;
+}
+
+.quida-bookflow-button {
+  background-color: #006661;
+  color: #fff;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 5px 20px;
+  border-radius: 30px;
+}
+.quida-bookflow-button:hover {
+  background-color: #017973;
+}
+
+@media only screen and (min-width: 780px) {
+  .quida {
+    display: grid;
+    grid-template-columns: 10% 1fr 10%;
   }
 }

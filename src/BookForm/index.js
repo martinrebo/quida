@@ -15,12 +15,12 @@ export default function BookForm() {
     let currentStep = servicesStore.state.bookingFlow.activeStep
 
     const handleNextStep = () => {
-        currentStep = servicesStore.state.bookingFlow.activeStep
+        // currentStep = servicesStore.state.bookingFlow.activeStep
         servicesStore.gotoStep(currentStep + 1)
         console.log(currentStep)
     }
     const handlePrevStep = () => {
-        currentStep = servicesStore.state.bookingFlow.activeStep
+        // currentStep = servicesStore.state.bookingFlow.activeStep
         servicesStore.gotoStep(currentStep - 1)
         console.log(currentStep)
     }
@@ -28,20 +28,24 @@ export default function BookForm() {
 
     return useObserver(() => {
         let step = servicesStore.state.bookingFlow.activeStep
-        let serviceId = servicesStore.state.bookingFlow.serviceId
+        let serviceId = servicesStore.state.bookingFlow.selectedServiceId
+        let date = servicesStore.state.bookingFlow.date
+
         return (
-            <div>
-                <div>Active Step: {step}</div>
+            <div className="quida-main">
+                <div>Active Step: {step} -- {serviceId}</div>
                 {step === 1 ? <Step1Service title={text.step1title} /> : null}
-                {step === 2 ? <Step2Date serviceId={serviceId}/> : null}
+                {step === 2 ? <Step2Date /> : null}
                 {step === 3 ? <Step3Book /> : null}
                 {step === 4 ? <Step4Confirmation /> : null}
 
+                {step && serviceId && date ? (
+                    <div className="quida-bookflow-nav">
+                        <button className="quida-bookflow-button" onClick={handlePrevStep}> Prev </button>
+                        <button className="quida-bookflow-button" onClick={handleNextStep}> Next</button>
+                    </div>
 
-                <div>
-                    <button onClick={handleNextStep}> Next Step </button>
-                    <button onClick={handlePrevStep}> Previoues Step </button>
-                </div>
+                ) : null}
 
             </div>
         )

@@ -4,7 +4,16 @@ export function createServicesStore(){
     return {
       
       state: {services: [],
-      bookingFlow: {activeStep: 1, selectedServiceID: null, date: null}},
+      bookingFlow: {activeStep: 1, selectedServiceId: null, date: null}},
+
+      flow1SelectService(selectedServiceId) {
+        this.state.bookingFlow.activeStep=2
+        this.state.bookingFlow.selectedServiceId= selectedServiceId
+      },
+      flow2SelectDate(date) {
+        this.state.bookingFlow.date=date
+        this.state.bookingFlow.activeStep=3
+      },
   
       gotoStep(number){
         console.log(number, this.state.bookingFlow.activeStep)

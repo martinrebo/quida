@@ -4,9 +4,9 @@ import Header from '../Components/Header/Header'
 
 export default function Booking() {
     return (
-        <div>
+        <>
             <Header />
             <BookForm />
-        </div>
+        </>
     )
 }

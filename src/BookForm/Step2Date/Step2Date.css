@@ -1,0 +1,28 @@
+.quida-calendar .react-calendar {
+    background: rgba(255, 255, 255, 0.4);
+    font-size: 1.3em;
+}
+
+.quida-calendar .react-date-picker {}
+
+
+.react-date-picker__inputGroup__input {
+    color: #fff;
+}
+
+.quida-calendar .react-date-picker__inputGroup {
+    min-width: 150px;
+    margin: 0 auto;
+    border: 3px solid #006661;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.quida-calendar .react-calendar__month-view {
+    background: transparent;
+    font-size: 1em;
+}
+
+.react-calendar__tile--active {
+    background-color: #006661;
+}

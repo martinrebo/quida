@@ -1,11 +1,21 @@
 import React from 'react'
+import './Box.css'
 
 export default function Box(props) {
+
+    const style = {
+        backgroundImage: `url(${props.background})`,
+        backgroundSize: 'cover',
+        width: 300,
+        height: 125
+    }
+
     return (
-        <div style={{border: "1px solid green",
-         backgroundImage: `url(${props.background})`,
-         backgroundSize: 'cover'  }}>
-            {props.children}
+        <div className={`box-hover`}
+            style={style}
+            data-id={props.dataId}
+        >
+            <h3 data-id={props.dataId}> {props.title}</h3>
         </div>
     )
 }
