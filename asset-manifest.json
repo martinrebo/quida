@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/martinrebo/static/css/main.85cb31b0.chunk.css",
+    "main.js": "/martinrebo/static/js/main.abac975d.chunk.js",
+    "main.js.map": "/martinrebo/static/js/main.abac975d.chunk.js.map",
+    "runtime-main.js": "/martinrebo/static/js/runtime-main.89094c8a.js",
+    "runtime-main.js.map": "/martinrebo/static/js/runtime-main.89094c8a.js.map",
+    "static/css/2.ab33d419.chunk.css": "/martinrebo/static/css/2.ab33d419.chunk.css",
+    "static/js/2.35022206.chunk.js": "/martinrebo/static/js/2.35022206.chunk.js",
+    "static/js/2.35022206.chunk.js.map": "/martinrebo/static/js/2.35022206.chunk.js.map",
+    "index.html": "/martinrebo/index.html",
+    "precache-manifest.9bdc9bf5995f1d4144797ec5d63173eb.js": "/martinrebo/precache-manifest.9bdc9bf5995f1d4144797ec5d63173eb.js",
+    "service-worker.js": "/martinrebo/service-worker.js",
+    "static/css/2.ab33d419.chunk.css.map": "/martinrebo/static/css/2.ab33d419.chunk.css.map",
+    "static/css/main.85cb31b0.chunk.css.map": "/martinrebo/static/css/main.85cb31b0.chunk.css.map",
+    "static/js/2.35022206.chunk.js.LICENSE.txt": "/martinrebo/static/js/2.35022206.chunk.js.LICENSE.txt",
+    "static/media/Qida-Logo-verde.svg": "/martinrebo/static/media/Qida-Logo-verde.f862d68a.svg",
+    "static/media/dentist.jpg": "/martinrebo/static/media/dentist.b5a08d4f.jpg",
+    "static/media/fisio.jpg": "/martinrebo/static/media/fisio.31271767.jpg",
+    "static/media/lab.jpg": "/martinrebo/static/media/lab.e1bd1a41.jpg",
+    "static/media/logopeda.jpg": "/martinrebo/static/media/logopeda.5f0dc04c.jpg",
+    "static/media/nurse.jpg": "/martinrebo/static/media/nurse.780ec422.jpg",
+    "static/media/App.css": "/martinrebo/static/media/other.c0152fbe.jpeg",
+    "static/media/other.webp": "/martinrebo/static/media/other.c81ed63d.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89094c8a.js",
+    "static/css/2.ab33d419.chunk.css",
+    "static/js/2.35022206.chunk.js",
+    "static/css/main.85cb31b0.chunk.css",
+    "static/js/main.abac975d.chunk.js"
+  ]
+}
