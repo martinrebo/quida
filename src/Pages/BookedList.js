@@ -7,14 +7,17 @@ import { toJS } from 'mobx'
 
 export default function BookedList() {
     const servicesStore = useServicesStore();
- 
-console.log( "shit",toJS(servicesStore.state.services))
+
+    console.log("shit", toJS(servicesStore.state.services))
     return useObserver(() => {
         console.log("wtf", servicesStore.state.services)
         return (
             <>
                 <Header />
-                <List services={toJS(servicesStore.state.services)} />
+                <div className="quida-main">
+                    <List services={toJS(servicesStore.state.services)} />
+                </div>
+
             </>
         )
 

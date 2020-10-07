@@ -5,7 +5,7 @@ import Box from '../Box/Box'
 
 export default function List({ services }) {
     return (
-        <div className="boxed">
+        <div>
             {services.length === 0
                 ? <h1> No services </h1>
 
