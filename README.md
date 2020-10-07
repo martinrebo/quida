@@ -1,7 +1,7 @@
 # QUIDA BOOKING FLOW
 - This project was develop to apply for a frontend position at quida.com
 - The purpose of this project is to showcase an example of the use of React / MobX / Docker
-
+- Deployed: Github pages: https://martinrebo.github.io/quida/
 
 ## User story
 - User can book the different services offered by quida
