@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quida/static/css/main.15f052ed.chunk.css",
+    "main.css": "/quida/static/css/main.010a61f3.chunk.css",
     "main.js": "/quida/static/js/main.74f0594c.chunk.js",
     "main.js.map": "/quida/static/js/main.74f0594c.chunk.js.map",
     "runtime-main.js": "/quida/static/js/runtime-main.86a750a6.js",
@@ -9,10 +9,10 @@
     "static/js/2.35022206.chunk.js": "/quida/static/js/2.35022206.chunk.js",
     "static/js/2.35022206.chunk.js.map": "/quida/static/js/2.35022206.chunk.js.map",
     "index.html": "/quida/index.html",
-    "precache-manifest.b4e1b78408ffc04649c51a19d37f1fdc.js": "/quida/precache-manifest.b4e1b78408ffc04649c51a19d37f1fdc.js",
+    "precache-manifest.7f5db008e0e34b3e3fdabbd7f23361b6.js": "/quida/precache-manifest.7f5db008e0e34b3e3fdabbd7f23361b6.js",
     "service-worker.js": "/quida/service-worker.js",
     "static/css/2.ab33d419.chunk.css.map": "/quida/static/css/2.ab33d419.chunk.css.map",
-    "static/css/main.15f052ed.chunk.css.map": "/quida/static/css/main.15f052ed.chunk.css.map",
+    "static/css/main.010a61f3.chunk.css.map": "/quida/static/css/main.010a61f3.chunk.css.map",
     "static/js/2.35022206.chunk.js.LICENSE.txt": "/quida/static/js/2.35022206.chunk.js.LICENSE.txt",
     "static/media/Qida-Logo-verde.svg": "/quida/static/media/Qida-Logo-verde.f862d68a.svg",
     "static/media/dentist.jpg": "/quida/static/media/dentist.b5a08d4f.jpg",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.86a750a6.js",
     "static/css/2.ab33d419.chunk.css",
     "static/js/2.35022206.chunk.js",
-    "static/css/main.15f052ed.chunk.css",
+    "static/css/main.010a61f3.chunk.css",
     "static/js/main.74f0594c.chunk.js"
   ]
 }
