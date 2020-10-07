@@ -23,9 +23,6 @@
   display: inline-grid;
 }
 
-.quida-service-list {
-  display: inline-flex;
-}
 
 .quida-page-home {
   grid-column: 2/3;
