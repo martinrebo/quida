@@ -1,4 +1,20 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# QUIDA BOOKING FLOW
+- This project was develop to apply for a frontend position at quida.com
+- The purpose of this project is to showcase an example of the use of React / MobX / Docker
+
+
+## User story
+- User can book the different services offered by quida
+- User can see the booked services
+
+## Tech stack 
+- React: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+- MobX: For app state management
+- Docker: For a controlled node enviroment
+
+## Run the project (Dev mode)
+- Option 1: Docker: `docker-compose up -d`
+- Option 2: npm: `npm start`
 
 ## Available Scripts
 

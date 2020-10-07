@@ -1,9 +1,13 @@
+
+/* FIXES FOR THE REACT CALENDAR*/
 .quida-calendar .react-calendar {
-    background: rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
     font-size: 1.3em;
 }
 
-.quida-calendar .react-date-picker {}
+.quida-calendar .react-date-picker__calendar .react-date-picker__calendar--open {
+
+}
 
 
 .react-date-picker__inputGroup__input {
@@ -19,8 +23,14 @@
 }
 
 .quida-calendar .react-calendar__month-view {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     font-size: 1em;
+    font-weight: bold;
+}
+
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+
+    font-weight: bold;
 }
 
 .react-calendar__tile--active {

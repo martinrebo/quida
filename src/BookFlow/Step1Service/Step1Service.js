@@ -1,6 +1,7 @@
 import React from 'react'
-import Box from '../../Components/Form/Box'
+import Box from '../../Components/Box/Box'
 import servicesList from '../../utils/servicesList'
+import apptext from '../../utils/apptext'
 import getImg from '../../utils/getImg'
 import { useServicesStore } from '../../Store/Context'
 
@@ -17,7 +18,7 @@ export default function Step1Service({ title }) {
 
     return (
         <div>
-            <h1>{title}</h1>
+            <h2>{apptext.bookform.step1title}</h2>
 
             {servicesList.map((service, index) => {
                 return (

@@ -6,13 +6,14 @@ import {
 } from "react-router-dom";
 import Booking from '../Pages/Booking';
 import Home from '../Pages/Home';
+import BookedList from '../Pages/BookedList'
 
 export default function Routes() {
     return (
         <Router>
             <Switch>
-                <Route path="/admin">
-                    <h1>admin panel</h1>
+                <Route path="/booked">
+                    <BookedList/>
                 </Route>
                 <Route path="/booking">
                     <Booking/>

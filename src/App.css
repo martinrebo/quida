@@ -1,11 +1,11 @@
 .quida {
   display: grid;
-  grid-template-columns: 5% 1fr 5%;
+  grid-template-columns: 1% 1fr 1%;
 }
 
 .quida-header {
-  border: 1px solid #006661;
   grid-column: 1/4;
+  text-align: center;
 }
 
 .quida-header-logo {
@@ -13,11 +13,31 @@
 }
 
 .quida-main {
+  text-align: center;
   grid-column: 2/3;
+  background-color: #01797305;
+  min-height: 80vh;
+}
+
+.quida-grid-item {
+  display: inline-grid;
 }
 
 .quida-service-list {
   display: inline-flex;
+}
+
+.quida-page-home {
+  grid-column: 2/3;
+  height: 100vh;
+  background-image: url(./assets/other.jpeg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.quida-home-cta {
+  margin-top: 20%;
 }
 
 .white {
@@ -33,29 +53,54 @@
 .boxed {
   width: 300px;
   height: 125px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .quida-bookflow-nav {
-  position: absolute;
+  position: fixed;
   bottom: 20px;
-  right: 43%;
+  right: 0px;
+  width: 100%;
 }
 
-.quida-bookflow-button {
+.quida-button {
   background-color: #006661;
   color: #fff;
   padding: 10px 30px;
   cursor: pointer;
   margin: 5px 20px;
   border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid #006661;
 }
-.quida-bookflow-button:hover {
+
+.quida-button-secondary {
+  background-color: #fff;
+  color: #006661;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin: 5px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid #006661;
+}
+
+.quida-button:hover {
   background-color: #017973;
+}
+
+.quida-booking-date {
+  font-size: 1.3em;
+ background-color: rgba(0, 0, 0, 0.534);
+ color: #fff;
+ padding: 10px;
+ text-shadow: none;
 }
 
 @media only screen and (min-width: 780px) {
   .quida {
     display: grid;
-    grid-template-columns: 10% 1fr 10%;
+    grid-template-columns: 1fr 1.5fr 1fr;
   }
 }

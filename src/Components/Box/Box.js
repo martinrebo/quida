@@ -16,6 +16,7 @@ export default function Box(props) {
             data-id={props.dataId}
         >
             <h3 data-id={props.dataId}> {props.title}</h3>
+            {props.children}
         </div>
     )
 }

@@ -4,7 +4,6 @@ import servicesList from '../../utils/servicesList'
 import apptext from '../../utils/apptext'
 import getImg from '../../utils/getImg'
 import { useServicesStore } from '../../Store/Context'
-
 import './Step2Date.css'
 
 
@@ -22,20 +21,19 @@ export default function Step2Date(props) {
 
     // Choose current service + convert propsId to number
     const currentService = servicesList.filter(service => service.id === parseInt(serviceId))[0]
-    console.log(currentService)
-
 
     const style = {
         backgroundImage: `url(${getImg(currentService?.logo)})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        height: "90vh"
+        height: "90vh", 
+        textAlign: "center"
     }
 
     return (
         <div style={style}>
-            <h3 className="white">{apptext.bookform.setp2title} {props.serviceId}</h3>
-            <h6 className="white">{currentService?.name} - {currentService?.logo} </h6>
+            <h2 className="white">{apptext.bookform.setp2title} {props.serviceId}</h2>
+            <h4 className="white">{currentService?.name} - {currentService?.logo} </h4>
             <DatePicker
                 className="quida-calendar"
                 isOpen={true}

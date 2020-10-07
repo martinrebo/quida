@@ -1,19 +1,17 @@
 import React from 'react'
-import Header from '../Components/Header/Header'
-import {useServicesStore} from '../Store/Context'
+import { Link } from 'react-router-dom'
+import logo from '../assets/Qida-Logo-verde.svg'
 
 export default function Home() {
-    const servicesStore = useServicesStore();
-    console.log(servicesStore)
-    return (
+  return (
+    <div className="quida-page-home">
+      <img className="responsive" style={{ maxHeight: 200 }} src={logo} alt="logo" />
+      <div className="quida-home-cta">
+        
+        <Link className="quida-button" to="/booking">BOOK SERVICE</Link>
         <div>
-            <Header/>
-            <a href="/booking">BOOK SERVICE</a> / LIST OF BOOKED SERVICES
-            {servicesStore.state.services.map((service) => (
-          <li onClick={
-            () => servicesStore.removeService(service.id)
-          } key={service.id}>{service.text}</li>
-        ))}
         </div>
-    )
+      </div>
+    </div>
+  )
 }
