@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3fb97e2a8047f551d5533b1c641b9d08",
+    "revision": "040e04da387301070e310aa46b2bb6d4",
     "url": "/quida/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quida/static/css/2.ab33d419.chunk.css"
   },
   {
-    "revision": "92e1fcb00486e9039a04",
-    "url": "/quida/static/css/main.6ea03dc7.chunk.css"
+    "revision": "1f29200475099dbd41d2",
+    "url": "/quida/static/css/main.15f052ed.chunk.css"
   },
   {
     "revision": "41ac6e6f59676a776f74",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quida/static/js/2.35022206.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "92e1fcb00486e9039a04",
-    "url": "/quida/static/js/main.abac975d.chunk.js"
+    "revision": "1f29200475099dbd41d2",
+    "url": "/quida/static/js/main.74f0594c.chunk.js"
   },
   {
     "revision": "0a560eb3a6ab257137eb",
